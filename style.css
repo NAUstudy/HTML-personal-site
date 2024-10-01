@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #5cb85c;
+  }
+  form {
+    margin: 20px; /* Загальний відступ для форми */
+  }
+  
+  label {
+    display: block; /* Встановлює мітки на новий рядок */
+    margin-top: 10px; /* Відступ зверху для міток */
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: calc(100% - 22px); /* Визначає ширину полів з урахуванням відступів */
+    margin-top: 10px; /* Відступ зверху для полів */
+    margin-left: 10px; /* Відступ зліва для полів */
+    padding: 10px; /* Внутрішній відступ для полів */
+    border: 1px solid #ccc; /* Обведення полів */
+    border-radius: 5px; /* Закруглення країв */
+    box-sizing: border-box; /* Включає внутрішні відступи в загальну ширину */
+  }  
